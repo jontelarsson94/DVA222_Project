@@ -18,6 +18,7 @@ int _tmain(int argc, char** argv)
     //------------------------------------------------------------------------------------------------------------------------------------
     ControlBase* button = new MyButton(10,10,190,60);
 	InitOGL(argc, argv, button);
+	ControlBase* button2;
 
     delete button;
 	return 0;
